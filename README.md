@@ -1,4 +1,8 @@
-# Kode ini mengimplementasikan bot untuk game pengumpulan berlian menggunakan algoritma greedy yang berfokus pada efficiency. Bot memiliki sistem prioritas berlapis: pertama menghindari musuh dalam radius bahaya, kemudian mengembalikan berlian ke base jika sudah mengumpulkan 4 atau lebih, lalu mencari dan mengumpulkan berlian dengan sistem scoring yang mempertimbangkan jarak dan nilai berlian. Bot juga memiliki mekanisme eksplorasi cerdas yang mengarah ke pusat papan permainan daripada bergerak acak. Keseluruhan strategi dirancang untuk memaksimalkan efficiency pengumpulan berlian sambil meminimalkan risiko dari musuh.
+# Algoritma Greeddy yang Diimplementasikan
+Kode ini mengimplementasikan bot untuk game pengumpulan berlian menggunakan algoritma greedy yang berfokus pada efficiency. Bot memiliki sistem prioritas berlapis: pertama menghindari musuh dalam radius bahaya, kemudian mengembalikan berlian ke base jika sudah mengumpulkan 4 atau lebih, lalu mencari dan mengumpulkan berlian dengan sistem scoring yang mempertimbangkan jarak dan nilai berlian. Bot juga memiliki mekanisme eksplorasi cerdas yang mengarah ke pusat papan permainan daripada bergerak acak. Keseluruhan strategi dirancang untuk memaksimalkan efficiency pengumpulan berlian sambil meminimalkan risiko dari musuh.
+
+# Requirement program dan instalasi tertentu dan Command dalam meng-compile atau build program
+
 Cara Menjalankan Game Engine
 Requirement yang harus di-install 
 - Node.js (Node.js — Run JavaScript Everywhere) 
