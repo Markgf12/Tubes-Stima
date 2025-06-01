@@ -78,6 +78,9 @@ python main.py --logic Random --email=your_email@example.com --name=your_name --
 ./run-bots.bat
 ```
 
+# Video Penjelasan
+https://bit.ly/VideoPenjelasan-Visualisasi
+
 ## Authors
 
 | Nama                        | NIM       |
