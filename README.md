@@ -58,4 +58,10 @@ Untuk menjalankan beberapa bot sekaligus (pada contoh ini, kita menjalankan 4 bo
 Untuk windows 
 - [./run-bots.bat] 
 
+## Authors
 
+| Nama                        | NIM      |
+|-----------------------------|----------|
+| Memory Simanjuntak          | 123140095 |
+| Arsa Salsabila             | 123140108 |
+| Grace Exauditha Nababan     | 123140115 |
