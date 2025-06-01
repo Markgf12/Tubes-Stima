@@ -4,7 +4,7 @@
 
 Kode ini mengimplementasikan bot untuk game pengumpulan berlian menggunakan algoritma greedy yang berfokus pada efficiency. Bot memiliki sistem prioritas berlapis: pertama menghindari musuh dalam radius bahaya, kemudian mengembalikan berlian ke base jika sudah mengumpulkan 4 atau lebih, lalu mencari dan mengumpulkan berlian dengan sistem scoring yang mempertimbangkan jarak dan nilai berlian. Bot juga memiliki mekanisme eksplorasi cerdas yang mengarah ke pusat papan permainan daripada bergerak acak. Keseluruhan strategi dirancang untuk memaksimalkan efficiency pengumpulan berlian sambil meminimalkan risiko dari musuh.
 
-## Requirements dan Instalasi
+## Requirements, Instalasi dan Command
 
 ### Game Engine
 
