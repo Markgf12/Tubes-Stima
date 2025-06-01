@@ -4,34 +4,34 @@ Kode ini mengimplementasikan bot untuk game pengumpulan berlian menggunakan algo
 # Requirement program dan instalasi tertentu dan Command dalam meng-compile atau build program
 
 Cara Menjalankan Game Engine
-Requirement yang harus di-install 
+a. Requirement yang harus di-install 
 - Node.js (Node.js — Run JavaScript Everywhere) 
 - Docker desktop (https://www.docker.com/products/docker-desktop/ )
 - Yarn (npm install --global yarn)
 
-Instalasi dan konfigurasi awal
+b. Instalasi dan konfigurasi awal
 - Download source code (.zip) pada https://github.com/haziqam/tubes1-IF2211-game-engine/releases/tag/v1.1.0 
 - Extract zip tersebut, lalu masuk ke folder hasil extractnya dan buka terminal 
 - Masuk ke root directory dari project (sesuaikan dengan nama rilis terbaru) 
   (cd tubes1-IF2110-game-engine-1.1.0)
 
 Install dependencies menggunakan Yarn 
-- yarn
+- [yarn]
 
 Setup default environment variable dengan menjalankan script berikut Untuk Windows
 - [./scripts/copy-env.bat]
 
 Setup local database (buka aplikasi docker desktop terlebih dahulu, lalu jalankan command berikut di terminal)
-- docker compose up -d database 
+- [docker compose up -d database] 
 
 Lalu jalankan script berikut. Untuk Windows 
-./scripts/setup-db-prisma.bat 
+.[/scripts/setup-db-prisma.bat] 
 
 C. Build 
-npm run build
+[npm run build]
 
 D. Run
-npm run start
+[npm run start]
  
 Kunjungi frontend melalui http://localhost:8082/
 
@@ -47,7 +47,7 @@ b. Download source code (.zip) pada https://github.com/haziqam/tubes1-IF2211-bot
 - cd tubes1-IF2110-bot-starter-pack-1.0.1 
 
 c. Install dependencies menggunakan pip 
-- pip install -r requirements.txt 
+- [pip install -r requirements.txt]
 
 d. Run
 Untuk menjalankan satu bot (pada contoh ini, kita menjalankan satu bot dengan logic yang terdapat pada file game/logic/random.py) 
@@ -56,6 +56,6 @@ python main.py --logic Random --email=your_email@example.com --name=your_name --
 
 Untuk menjalankan beberapa bot sekaligus (pada contoh ini, kita menjalankan 4 bot dengan logic yang sama, yaitu game/logic/random.py)
 Untuk windows 
-./run-bots.bat 
+- [./run-bots.bat] 
 
 
